@@ -802,7 +802,7 @@ class _EpochsViewState extends State<EpochsView> {
     return Scaffold(
       backgroundColor: const Color(0xfff4f6f9),
       extendBodyBehindAppBar: true,
-      appBar: const Header(title: 'Event Explorer'),
+      appBar: const Header(title: 'Blockchain Explorer'),
       body: WaveContainer(
         containerHeight: MediaQuery.of(context).size.height,
         containerWidth: MediaQuery.of(context).size.width,
@@ -982,20 +982,10 @@ class _EpochsViewState extends State<EpochsView> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => BlocksView(
-                    title: 'Event Explorer',
+                    title: 'Blockchain Explorer',
                   ),
                 ),
               );
-
-              // No animation push:
-              //  Navigator.push(
-              //   context,
-              //   PageRouteBuilder(
-              //     pageBuilder: (context, animation1, animation2) => const BlocksView(title: 'Event Explorer'),
-              //     transitionDuration: Duration.zero,
-              //     reverseTransitionDuration: Duration.zero,
-              //   ),
-              // );
             },
             child: MouseRegion(
               cursor: isConfirmedBlock ? SystemMouseCursors.click : SystemMouseCursors.basic,

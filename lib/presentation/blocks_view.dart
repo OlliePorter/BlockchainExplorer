@@ -288,7 +288,7 @@ class _BlocksViewState extends State<BlocksView> {
     return Scaffold(
       backgroundColor: const Color(0xfff4f6f9),
       extendBodyBehindAppBar: true,
-      appBar: const Header(title: 'Event Explorer'),
+      appBar: const Header(title: 'Blockchain Explorer'),
       body: Stack(
         children: [
           Column(
