@@ -29,3 +29,6 @@ This app requires you to have the Flutter SDK installed on your machine. You can
 
 ## Interacting with the deployed app
 Installing the Flutter SDK locally can be a pain. Instead, the full Blockchain Explorer app has been deployed through Heroku [here](https://block-explorer.herokuapp.com/).
+
+## Figma Designs
+You can explore the full Figma UI designs for this project [here](https://www.figma.com/file/BwXbnu4GsDDSXODR6sXj1i/Block-Explorer?node-id=6%3A8&t=Sy3NcREBeprg0AI6-1)
